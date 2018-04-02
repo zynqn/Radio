@@ -161,34 +161,7 @@ section:nth-child(even) {
 
 /* PROJECTS DESCRIPTION STYLING */
 
-
-
 .projects-description {
-    background-color: var(--primary-1);
-    padding: 16px;
-    box-shadow: var(--shadow-md);
-    border-radius: var(--br);
-    position: absolute;
-    width: 80%;
-    padding: 40px;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%,0);
-}
-.projects-description2 {
-    background-color: var(--primary-1);
-    padding: 16px;
-    box-shadow: var(--shadow-md);
-    border-radius: var(--br);
-    position: absolute;
-    width: 80%;
-    padding: 40px;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%,0);
-}
-
-.journ-description {
     background-color: var(--primary-1);
     padding: 16px;
     box-shadow: var(--shadow-md);
@@ -200,11 +173,8 @@ section:nth-child(even) {
     text-transform: uppercase;
     color: #D8D8D8;
     letter-spacing: 4px;
-    font-size: 20px !important;
-}
+    font-size: 10px !important;
 
-.radiotitle {
-    font-size: 40px!important;
 }
 
 /* STORIES BUTTON */
@@ -225,17 +195,6 @@ section:nth-child(even) {
     background-color: #BF2980;
     box-shadow: 0 10px 40px rgba(191, 41, 128, .3);
 }
-
-/*.play-btn{
-    opacity: 0;
-    width: 8%;
-}
-
-.play-btn:hover{
-    opacity: 1;
-    width: 8%;
-    transition: 0.2s;
-}*/
 
 
 /* [ -------------------- 04 ONLINE JOURN STYLING -------------------- ] */
@@ -336,12 +295,14 @@ section:nth-child(even) {
     z-index: 1;
 }
 
+.radiotitle {
+}
 
 /* [ -------------------- 04 VFX STYLING -------------------- ] */
 
 #vfxworks {
     width: 100%;
-    height: 1518px;
+    height: 1440px;
     background-image: linear-gradient(to left, #4b2543 0%, #2e233f 54%, #24112a 100%);        
 }
 
@@ -349,38 +310,27 @@ section:nth-child(even) {
     color: #FFF;
 }
 
-#tvworks {
-    width: 100%;
-    height: 1366px;
-    background-image: linear-gradient(to left, #4b2543 0%, #2e233f 54%, #24112a 100%);        
-}
-
-#tvworks h4, p {
-    color: #FFF;
-}
-
-.posterslot {
-    position: relative;
-}
-
 .poster1slot {
+	
 	background-image: url(../img/VFX/Catherine-thumbnail.png);
-	height: 1200px;
+	height: 1100px;
     background-size: cover;
     transition: 0.2s;
     background-position: center center;
 }
 
 .poster1slot:hover{
-    background-image: url(../img/VFX/Catherine-thumbnailhover.png);
+	background-image: url(../img/VFX/Catherine-thumbnailhover.png);
     transition: 0.2s;
     background-position: center center;
-    cursor: pointer;
+
+
 }
 
 .poster2slot {
+	
 	background-image: url(../img/VFX/Daniel-thumbnail.png);
-	height: 1200px;
+	height: 1100px;
     background-size: cover;
     transition: 0.2s;
     background-position: center center;
@@ -396,14 +346,13 @@ section:nth-child(even) {
 .poster2slot img:hover{
 	background-image: url(../img/VFX/Daniel-thumbnailhover.png) !important;
 	display: none;
-    transition: 0.2s;
-    cursor: pointer;
+	transition: 0.2s;
 }
 
 .poster3slot {
 	
 	background-image: url(../img/VFX/Marshal-thumbnail.png);
-	height: 1200px;
+	height: 1100px;
     background-size: cover;
     transition: 0.2s;
     background-position: center center;
@@ -413,13 +362,13 @@ section:nth-child(even) {
 .poster3slot:hover{
 	background-image: url(../img/VFX/Marshal-thumbnailhover.png);
 	transition: 0.2s;
-    cursor: pointer;
+
 }
 
 .poster4slot {
 	
-	background-image: url(../img/VFX/Satria-thumbnailhover.png);
-	height: 1200px;
+	background-image: url(../img/VFX/Satria-thumbnail.png);
+	height: 1100px;
     background-size: cover;
     transition: 0.2s;
     background-position: center center;
@@ -429,12 +378,12 @@ section:nth-child(even) {
 .poster4slot:hover{
 	background-image: url(../img/VFX/Satria-thumbnailhover.png);
 	transition: 0.2s;
-    cursor: pointer;
+
 }
 
 .poster5slot {
 	
-	background-image: url(../img/VFX/nishan.png);
+	background-image: url(../img/VFX/poster5.jpeg);
 	height: 1100px;
     background-size: cover;
     transition: 0.2s;
@@ -443,167 +392,9 @@ section:nth-child(even) {
 }
 
 .poster5slot:hover{
-	background-image: url(../img/VFX/nishanhover.png);
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-.poster6slot {
-	
-	background-image: url(../img/VFX/chunenn.png);
-	height: 1100px;
-    background-size: cover;
-    transition: 0.2s;
-    background-position: center center;
-
-}
-
-.poster6slot:hover{
-	background-image: url(../img/VFX/Chunenhover.png);
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-/* ----------TV stylimg---------- */
-.poster1aslot {
-	
-	background-image: url(../img/tv/kalaidoscopethumb.png);
-	height: 1100px;
-    background-size: cover;
-    transition: 0.2s;
-    background-position: center center;
-}
-
-.poster1aslot:hover{
-	background-image: url(../img/tv/kalaidoscopethumbhover.png);
-    transition: 0.2s;
-    background-position: center center;
-    cursor: pointer;
-
-
-}
-
-.poster2aslot {
-	
-	background-image: url(../img/tv/comfortablynumbthumb.png);
-	height: 1100px;
-    background-size: cover;
-    transition: 0.2s;
-    background-position: center center;
-
-}
-
-.poster2aslot:hover{
-	background-image: url(../img/tv/comfortablynumbthumbhover.png);
+	background-image: url(../img/VFX/poster5hover.png);
 	transition: 0.2s;
-
 }
-
-.poster2aslot img:hover{
-	background-image: url(../img/tv/comfortablynumbthumbhover.png) !important;
-	display: none;
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-.poster3aslot {
-	
-	background-image: url(../img/tv/distancethumb.png);
-	height: 1100px;
-    background-size: cover;
-    transition: 0.2s;
-    background-position: center center;
-
-}
-
-.poster3aslot:hover{
-	background-image: url(../img/tv/distancethumbhover.png);
-	transition: 0.2s;
-    cursor: pointer;
-}
-
-.poster4aslot {
-	
-	background-image: url(../img/tv/Balikkampungthumb.png);
-	height: 1100px;
-    background-size: cover;
-    transition: 0.2s;
-    background-position: center center;
-
-}
-
-.poster4aslot:hover{
-	background-image: url(../img/tv/Balikkampungthumbhover.png);
-	transition: 0.2s;
-    cursor: pointer;
-}
-
-.poster5aslot {
-	
-	background-image: url(../img/tv/cosmicrealignmentthumb.png);
-	height: 1200px;
-    background-size: cover;
-    transition: 0.2s;
-    background-position: center center;
-
-}
-
-.poster5aslot:hover{
-	background-image: url(../img/tv/cosmicrealignmentthumbhover.png);
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-.poster6aslot {
-	
-	background-image: url(../img/tv/mynextdoorneighbourthumb.png);
-	height: 1200px;
-    background-size: cover;
-    transition: 0.2s;
-    background-position: center center;
-
-}
-
-.poster6aslot:hover{
-	background-image: url(../img/tv/mynextdoorneighbourthumbhover.png);
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-.poster7aslot {
-	
-	background-image: url(../img/tv/thecloudsshouldknowusbynowthumb.png);
-	height: 1100px;
-    background-size: cover;
-    transition: 0.2s;
-    background-position: center center;
-
-}
-
-.poster7aslot:hover{
-	background-image: url(../img/tv/thecloudsshouldknowusbynowthumbhover.png);
-    transition: 0.2s;
-    cursor: pointer;
-}
-.poster8aslot {
-	
-	background-image: url(../img/tv/onefinedaythumb.png);
-	height: 1100px;
-    background-size: cover;
-    transition: 0.2s;
-    background-position: center center;
-
-}
-
-.poster8aslot:hover{
-	background-image: url(../img/tv/onefinedaythumbhover.png);
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-
-
-
 
 /* [ -------------------- 08 MEDIA QUERIES -------------------- ] */
 
